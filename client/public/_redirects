@@ -1,0 +1,4 @@
+# Netlify: serve index.html for every client-side route (React Router).
+# To proxy the API through Netlify (first-party cookies, recommended), add this line ABOVE the SPA rule:
+#   /api/*  https://YOUR-API-HOST/api/:splat  200
+/*  /index.html  200
